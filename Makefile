@@ -23,7 +23,7 @@ OBJS_DIR = ./objs
 LIBFT_DIR = ./libft
 
 # Archivos fuente
-SRCS = fract-ol.c main.c utils.c ft_strtod.c julia.c mandelbrot.c burning_ship.c events.c
+SRCS = fract-ol.c main.c utils.c julia.c mandelbrot.c burning_ship.c events.c
 OBJS = $(patsubst $(SRCS_DIR)/%.c, $(OBJS_DIR)/%.o, $(SRCS))
 
 # MinilibX
