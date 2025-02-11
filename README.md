@@ -27,7 +27,24 @@
 - **libft**: Este proyecto utiliza la biblioteca `libft` para funciones estándar de C.
 
 ## 🖥️ Instalación
+⚠️ **IMPORTANTE** ⚠️
+Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio para que funcione.  
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/fract-ol.git
+
+📂 fract-ol/
+```
+git clone https://github.com/jcurtidodev/libft-42.git
+```
+1. Una vez clonado, compila:
+```bash
+make
+```
+2. Ejecuta el fractal de tu elección:
+```bash
+./fract-ol mandelbrot
+```
+## 🎮 Uso
+Elige entre los diferentes fractales y disfruta. Los parámetros adicionales para **julia** se pasan por la línea de comandos con un espacio como separador.
+```bash
+./fract-ol julia -0.7 -0.328
+```
