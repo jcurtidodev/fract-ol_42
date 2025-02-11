@@ -78,7 +78,6 @@ Otras combinaciones que recomiendo:
 ├── 📜 Makefile          # Compilación del proyecto
 ├── 📜 burning_ship.c    # Código para el fractal Burning Ship
 ├── 📜 fract-ol.c        # Código principal para renderizado y gestión
-├── 📜 ft_strtod.c       # Función personalizada para conversión de string a double
 ├── 📜 events.c          # Gestión de eventos de la ventana
 ├── 📜 fract_ol.h        # Archivo de cabecera
 ├── 📜 julia.c           # Código para el fractal Julia
