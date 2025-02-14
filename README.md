@@ -35,7 +35,7 @@ Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio para que 
 ```
 git clone https://github.com/jcurtidodev/libft-42.git libft
 ```
-Una vez hecho, continua haciendo:
+Una vez hecho, continua con:
 ```bash
 make
 ```
