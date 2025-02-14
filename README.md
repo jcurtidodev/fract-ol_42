@@ -28,7 +28,7 @@
 
 ## 🖥️ Compilación e Instalación
 ⚠️ **IMPORTANTE** ⚠️
-Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio para que funcione.  
+Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio y nombrarlo **libft** para que funcione.  
 
 
 📂 fract-ol/
