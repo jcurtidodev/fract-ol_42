@@ -28,12 +28,12 @@
 
 ## 🖥️ Compilación e Instalación
 ⚠️ **IMPORTANTE** ⚠️
-Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio y nombrarlo **libft** para que funcione.  
+Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio para que funcione.  
 
 
 📂 fract-ol/
 ```
-git clone https://github.com/jcurtidodev/libft-42.git
+git clone https://github.com/jcurtidodev/libft-42.git libft
 ```
 Una vez hecho, continua haciendo:
 ```bash
