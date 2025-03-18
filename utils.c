@@ -6,7 +6,7 @@
 /*   By: jcurtido <jcurtido@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/10 16:52:01 by jcurtido          #+#    #+#             */
-/*   Updated: 2025/02/04 15:44:37 by jcurtido         ###   ########.fr       */
+/*   Updated: 2025/03/18 17:53:55 by jcurtido         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,11 @@ int	check_data(double val1, double val2, t_fractal type)
 			flag = 1;
 	}
 	return (flag);
+}
+
+int clean_exit_wrapper(void *data)
+{
+    return clean_exit((t_fractal_data *)data, NULL);
 }
 
 void	controller_window(t_fractal_data *data, char *title)
@@ -54,7 +59,7 @@ void	controller_window(t_fractal_data *data, char *title)
 	mlx_put_image_to_window(data->mlx, data->win, data->img, 0, 0);
 	mlx_key_hook(data->win, handle_key, data);
 	mlx_mouse_hook(data->win, mouse_zoom, data);
-	mlx_hook(data->win, 17, 0, (int (*)(void *))clean_exit, NULL);
+	mlx_hook(data->win, 17, 0, clean_exit_wrapper, data);
 }
 
 void	my_mlx_pixel_put(t_fractal_data *data, int x, int y, int color)
