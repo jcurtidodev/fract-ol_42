@@ -27,8 +27,12 @@
 - **libft**: Este proyecto utiliza la biblioteca `libft` para funciones estándar de C.
 
 ## 🖥️ Compilación e Instalación
-⚠️ **IMPORTANTE** ⚠️
-Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio para que funcione.  
+> ⚠️ **Precaución**  
+> Este proyecto está diseñado para compilarse y ejecutarse en un entorno **Linux** con MiniLibX instalado.  
+> Si trabajas desde Windows, asegúrate de usar **WSL (Windows Subsystem for Linux)** o una máquina virtual con Linux.  
+> Otras plataformas (macOS, etc.) no están garantizadas y pueden requerir adaptaciones adicionales.
+
+> ⚠️ Una vez clones `fract-ol`, debes clonar `libft` dentro del repositorio para que funcione.  
 
 
 📂 fract-ol/
